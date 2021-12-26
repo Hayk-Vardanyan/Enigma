@@ -69,12 +69,7 @@ std::string Cube::decode(const std::string& key) {
         return_value += separator[i];
         std::cout << separator[i];
     }
-   
-    
-
-
     return return_value;
-
 }
 
 void Cube::rotate_left(int current_cube) {
