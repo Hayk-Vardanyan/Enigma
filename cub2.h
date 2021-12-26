@@ -23,7 +23,7 @@ class Cube {
 public:
     void incode(std::string input_str);
     std::string code();
-    std::string decode(const std::string & key);
+    std::string decode(const std::string& key);
 
 private:
     void rotate_up(int current_cube); 
